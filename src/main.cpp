@@ -18,7 +18,7 @@ MotorControl motorControl(leftESC, rightESC);
 Encoder leftEncoder(leftEncoderA, leftEncoderB);
 Encoder rightEncoder(rightEncoderA, rightEncoderB);
 
-const float baseWidth = 0.185; // adjust based on your robot's track width
+const float baseWidth = 0.185; 
 
 int mapToPWM(float vel)
 {
