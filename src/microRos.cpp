@@ -29,8 +29,8 @@ void error_loop(){
 
 void subscription_callback(const void *msgin) {
   const geometry_msgs__msg__Twist * msg = (const geometry_msgs__msg__Twist *)msgin;
-  angularVelocity = msg->linear.x;
-  linearVelocity = msg->angular.z;
+  angularVelocity = msg->angular.z;
+  linearVelocity = msg->linear.x;
 }
 
 void microRosInit() {
