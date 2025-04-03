@@ -1,4 +1,4 @@
-#include "Encoder.h"
+#include "encoder.h"
 
 volatile int Encoder::leftTicks = 0;
 volatile int Encoder::rightTicks = 0;

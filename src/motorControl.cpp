@@ -1,4 +1,4 @@
-#include "MotorControl.h"
+#include "motorControl.h"
 
 #define minPulse 1000  // Minimum pulse length in µs
 #define maxPulse 2000  // Maximum pulse length in µs
